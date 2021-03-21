@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Parser
 {
-    class LexicalAnalyze
+    public class LexicalAnalyze
     {
         List<Token> tokens = new List<Token>();
         public LexicalAnalyze()
@@ -18,7 +18,8 @@ namespace Parser
             token.value = value;
             tokens.Add(token);
         }
-        List<Token> StartLexicalAnalyze(string codes)
+
+        public List<Token> StartLexicalAnalyze(string codes)
         {
             var length = codes.Length;
             var index = 0;

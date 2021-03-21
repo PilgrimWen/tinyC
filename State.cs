@@ -7,6 +7,8 @@ namespace Parser
         InString,
         InStringEscaping,
         InIdentifier,
+        InPreComment,
+        InComment,
         End
     }
 }

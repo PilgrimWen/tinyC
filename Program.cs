@@ -6,11 +6,10 @@ namespace Parser
     {
         static void Main(string[] args)
         {
-            Parser.Program p = new Parser.Program();
+            _ = new Parser.Program();
             Console.WriteLine("Hello World!");
             Console.Read();
         }
-        
        
     }
 }
