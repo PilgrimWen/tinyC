@@ -8,6 +8,7 @@ namespace Parser
         {
             _ = new Parser.Program();
             Console.WriteLine("Hello World!");
+            Console.WriteLine("this is a test");
             Console.Read();
         }
        
